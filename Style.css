@@ -138,7 +138,7 @@ body{
 .bi-plus-square{
     position: absolute;
     left: 19px;
-    top: 0px;
+    top: -2px;
     opacity: 50%;
     color: rgba(255, 255, 255, 0.322);
 }
