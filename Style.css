@@ -14,7 +14,7 @@ body{
     resize: both;
     overflow: auto;
     padding: 5px;
-    width: 300px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     border-radius: 12px;
