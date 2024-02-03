@@ -49,7 +49,7 @@ listbody.addEventListener("click" , function(e){
 
 
 function addTitle(flag){
-    title = window.prompt();
+    title = window.prompt("Enter Title of List Container .");
     if(title == ""){
         title = window.prompt();
     }else if(title == null){return;}
@@ -70,7 +70,7 @@ function addTitle(flag){
 
 
 function addTask(container,flag){
-    task = window.prompt();
+    task = window.prompt("Enter title of task .");
     console.log(task);
     if(task == ""){
         task = window.prompt();
