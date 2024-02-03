@@ -24,10 +24,8 @@ body{
 .menu{
     height: 30px;
     border-radius: 6px;
-    background-color: rgba(15, 15, 15, 0.281);
     margin: 5px;
     display: flex;
-    margin-left: 22px;
 }
 
 .add-List-Button{
@@ -120,13 +118,14 @@ body{
     position: absolute;
     color: rgba(211, 185, 185, 0.233);
     right: 4px;
-    top: 5px;
+    top: 8px;
     height: 12px;
     width: 12px;
 }
 
 .title-bar .bi-trash3{
-    right: 8px;
+    top: 4px;
+    right: 7px;
     height: 15px;
     width: 15px;
 }
@@ -138,7 +137,7 @@ body{
 .bi-plus-square{
     position: absolute;
     left: 19px;
-    top: -2px;
+    top: 1px;
     opacity: 50%;
     color: rgba(255, 255, 255, 0.322);
 }
