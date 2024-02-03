@@ -104,6 +104,11 @@ function saveData(){
 }
 function loadData(){
     let Data = localStorage.getItem("data");
-    listbody.innerHTML = Data==""?menu:Data;
+    if(Data===null || Data === ""){
+        listbody.innerHTML = menu
+    }else{
+        listbody.innerHTML = Data;
+    }
+    
 }
 loadData();
