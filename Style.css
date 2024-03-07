@@ -99,11 +99,14 @@ body{
 }
 
 .text-field{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     display: inline;
     right: 0px;
 }
 
 .checked {
+    font-family: 'Roboto', sans-serif;
     text-decoration: line-through;
     text-decoration-thickness: 1px;
     text-decoration-color: rgba(255, 255, 255, 0.712);
