@@ -5,7 +5,27 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #f1f1f120; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+height:10px;
+  background: #88888860; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888888A0;
+}
 
 .list-body{
     background-color: rgba(0, 0, 0, 0.61);  
